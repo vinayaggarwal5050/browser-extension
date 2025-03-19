@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login">
+        <h2>Enter Password</h2>
+        <input type="password" id="password" placeholder="Enter password">
+        <button id="loginButton">Login</button>
+        <p id="errorMessage" style="color: red; display: none;">Incorrect password!</p>
+    </div>
+
+    <div id="historySection" style="display: none;">
+        <h2>Visited Sites</h2>
+        <ul id="historyList"></ul>
+        <button id="clearHistory">Clear History</button>
+        <button id="changePassword">Change Password</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
